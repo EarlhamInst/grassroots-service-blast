@@ -53,7 +53,7 @@
 #include "uuid_util.h"
 
 #ifdef _DEBUG
-#define BLAST_SERVICE_DEBUG (STM_LEVEL_FINEST)
+#define BLAST_SERVICE_DEBUG (STM_LEVEL_INFO)
 #else
 #define BLAST_SERVICE_DEBUG (STM_LEVEL_NONE)
 #endif
